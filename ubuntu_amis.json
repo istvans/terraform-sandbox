@@ -1,0 +1,380 @@
+{
+    "Images": [
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-04-20T12:50:05.000Z",
+            "ImageId": "ami-061b70092a50e9522",
+            "ImageLocation": "aws-marketplace/ubuntu/images-testing/hvm-ssd/ubuntu-jammy-daily-amd64-server-20220419-47489723-7305-4e22-8b22-b0d57054f216",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "47xbqns9xujfkkjt189a13aqe",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-00a5e0ca7dd0e8e59",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdb",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "/dev/sdc",
+                    "VirtualName": "ephemeral1"
+                }
+            ],
+            "Description": "Canonical, Ubuntu, 22.04 LTS, UNSUPPORTED daily amd64 jammy image build on 2022-04-19",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "ubuntu/images-testing/hvm-ssd/ubuntu-jammy-daily-amd64-server-20220419-47489723-7305-4e22-8b22-b0d57054f216",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-07-12T21:19:09.000Z",
+            "ImageId": "ami-06deb2d59d8f5b327",
+            "ImageLocation": "aws-marketplace/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220712.1-47489723-7305-4e22-8b22-b0d57054f216",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "47xbqns9xujfkkjt189a13aqe",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-03778c84b5a17251e",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdb",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "/dev/sdc",
+                    "VirtualName": "ephemeral1"
+                }
+            ],
+            "Description": "Canonical, Ubuntu, 22.04 LTS, amd64 jammy image build on 2022-07-12",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220712.1-47489723-7305-4e22-8b22-b0d57054f216",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-06-04T07:35:14.000Z",
+            "ImageId": "ami-08f747c4b84286acf",
+            "ImageLocation": "aws-marketplace/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220604-47489723-7305-4e22-8b22-b0d57054f216",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "47xbqns9xujfkkjt189a13aqe",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-036d14b69c9e15188",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdb",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "/dev/sdc",
+                    "VirtualName": "ephemeral1"
+                }
+            ],
+            "Description": "Canonical, Ubuntu, 22.04 LTS, amd64 jammy image build on 2022-06-04",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220604-47489723-7305-4e22-8b22-b0d57054f216",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-05-28T08:50:33.000Z",
+            "ImageId": "ami-0a9f25ed07e7a4b0a",
+            "ImageLocation": "aws-marketplace/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220528-47489723-7305-4e22-8b22-b0d57054f216",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "47xbqns9xujfkkjt189a13aqe",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-054949a780a4d55da",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdb",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "/dev/sdc",
+                    "VirtualName": "ephemeral1"
+                }
+            ],
+            "Description": "Canonical, Ubuntu, 22.04 LTS, amd64 jammy image build on 2022-05-28",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220528-47489723-7305-4e22-8b22-b0d57054f216",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-07-08T07:46:20.000Z",
+            "ImageId": "ami-0e3987cfcdb1dcee3",
+            "ImageLocation": "aws-marketplace/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220708-47489723-7305-4e22-8b22-b0d57054f216",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "47xbqns9xujfkkjt189a13aqe",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-02c431477da4852c9",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdb",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "/dev/sdc",
+                    "VirtualName": "ephemeral1"
+                }
+            ],
+            "Description": "Canonical, Ubuntu, 22.04 LTS, amd64 jammy image build on 2022-07-08",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220708-47489723-7305-4e22-8b22-b0d57054f216",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-06-16T07:35:36.000Z",
+            "ImageId": "ami-03d132dde9b7bdcf3",
+            "ImageLocation": "aws-marketplace/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220616-47489723-7305-4e22-8b22-b0d57054f216",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "47xbqns9xujfkkjt189a13aqe",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0570ed7a4dfeb21b1",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdb",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "/dev/sdc",
+                    "VirtualName": "ephemeral1"
+                }
+            ],
+            "Description": "Canonical, Ubuntu, 22.04 LTS, amd64 jammy image build on 2022-06-16",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220616-47489723-7305-4e22-8b22-b0d57054f216",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-08-10T20:12:54.000Z",
+            "ImageId": "ami-0f474033296335790",
+            "ImageLocation": "aws-marketplace/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220810-47489723-7305-4e22-8b22-b0d57054f216",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "47xbqns9xujfkkjt189a13aqe",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0bbc3e0748b664f9f",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdb",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "/dev/sdc",
+                    "VirtualName": "ephemeral1"
+                }
+            ],
+            "Description": "Canonical, Ubuntu, 22.04 LTS, amd64 jammy image build on 2022-08-10",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220810-47489723-7305-4e22-8b22-b0d57054f216",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2022-05-11T13:26:02.000Z",
+            "ImageId": "ami-06c52be8b83c2ce74",
+            "ImageLocation": "aws-marketplace/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220506-47489723-7305-4e22-8b22-b0d57054f216",
+            "ImageType": "machine",
+            "Public": true,
+            "OwnerId": "679593333241",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "ProductCodes": [
+                {
+                    "ProductCodeId": "47xbqns9xujfkkjt189a13aqe",
+                    "ProductCodeType": "marketplace"
+                }
+            ],
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-058b77f2a9c54eafe",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                },
+                {
+                    "DeviceName": "/dev/sdb",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "/dev/sdc",
+                    "VirtualName": "ephemeral1"
+                }
+            ],
+            "Description": "Canonical, Ubuntu, 22.04 LTS, amd64 jammy image build on 2022-05-06",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "aws-marketplace",
+            "Name": "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220506-47489723-7305-4e22-8b22-b0d57054f216",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm"
+        }
+    ]
+}
